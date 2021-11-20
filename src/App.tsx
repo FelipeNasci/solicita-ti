@@ -1,11 +1,6 @@
 import React from 'react';
-import { Text } from 'react-native';
-import { BaseLayout } from './components/Layouts';
+import { RegisterCall } from './screens/register-call';
 
 export const App = () => {
-  return (
-    <BaseLayout>
-      <Text>Ola mundo</Text>
-    </BaseLayout>
-  );
+  return <RegisterCall />;
 };
